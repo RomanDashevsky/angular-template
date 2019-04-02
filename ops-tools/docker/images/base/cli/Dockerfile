@@ -7,6 +7,6 @@ RUN npm install -g @angular/cli
 
 COPY ./entrypoint.sh /entrypoint.sh
 
-EXPOSE 3000
+EXPOSE 4200
 
 ENTRYPOINT ["/entrypoint.sh"]
